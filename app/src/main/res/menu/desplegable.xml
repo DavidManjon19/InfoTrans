@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/Borrar"
+    android:title="Borrado"/>
+    <item
+        android:id="@+id/Estado"
+        android:title="Modificar estado del pedido"/>
+    <item
+        android:id="@+id/Info"
+        android:title="Informacion del pedido"/>
+</menu>

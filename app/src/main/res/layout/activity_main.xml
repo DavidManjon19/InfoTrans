@@ -29,7 +29,7 @@
         android:layout_marginTop="68dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="Usuario..."
+        android:hint="Email..."
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,19 +59,19 @@
         android:layout_marginEnd="144dp"
         android:layout_marginRight="144dp"
         android:layout_marginBottom="60dp"
-        android:onClick="Login"
+        android:onClick="Logeo"
         android:text="Aceptar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/a1_pass"
-        app:layout_constraintVertical_bias="0.216" />
+        app:layout_constraintVertical_bias="0.212" />
 
     <TextView
         android:id="@+id/a1_register"
-        android:layout_width="359dp"
-        android:layout_height="21dp"
+        android:layout_width="182dp"
+        android:layout_height="60dp"
         android:background="#8DFFFFFF"
         android:onClick="Click"
         android:shadowColor="#FFFFFF"
@@ -83,9 +83,9 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/a1_acept"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.388" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

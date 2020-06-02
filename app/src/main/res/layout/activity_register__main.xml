@@ -9,15 +9,15 @@
 
     <RadioGroup
         android:id="@+id/R_Type"
-        android:layout_width="193dp"
-        android:layout_height="100dp"
+        android:layout_width="189dp"
+        android:layout_height="78dp"
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105">
+        app:layout_constraintVertical_bias="0.128">
 
         <RadioButton
             android:id="@+id/R_T_Cliente"
@@ -35,28 +35,7 @@
             tools:layout_editor_absoluteX="137dp"
             tools:layout_editor_absoluteY="95dp" />
 
-        <RadioButton
-            android:id="@+id/R_T_Transporte"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Transportistas"
-            tools:layout_editor_absoluteX="137dp"
-            tools:layout_editor_absoluteY="127dp" />
     </RadioGroup>
-
-    <EditText
-        android:id="@+id/R_Nombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:ems="10"
-        android:hint="Nombre"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/R_Type"
-        app:layout_constraintVertical_bias="0.244" />
 
     <EditText
         android:id="@+id/R_Contraseña"
@@ -68,9 +47,10 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/R_Type"
-        app:layout_constraintVertical_bias="0.465" />
+        app:layout_constraintVertical_bias="0.462" />
 
     <Button
         android:id="@+id/R_Register"
@@ -83,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/r_Contraseña_otra"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.647" />
 
     <EditText
         android:id="@+id/R_dni"
@@ -91,13 +71,59 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:ems="10"
-        android:hint="DNI o NIF de la Empresa"
+        android:hint="DNI"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/R_Type"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.042" />
+
+    <EditText
+        android:id="@+id/R_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/R_Type"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <EditText
+        android:id="@+id/r_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/R_Type"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <EditText
+        android:id="@+id/R_Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/R_Type"
+        app:layout_constraintVertical_bias="0.376" />
 
     <EditText
         android:id="@+id/r_Contraseña_otra"
@@ -109,22 +135,20 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/R_Type"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.588" />
 
-    <EditText
-        android:id="@+id/R_Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="208dp"
+        android:layout_height="23dp"
         android:background="#FFFFFF"
-        android:ems="10"
-        android:hint="Login"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/R_Register"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/R_Type"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintTop_toBottomOf="@+id/r_Contraseña_otra" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
